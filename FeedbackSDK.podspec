@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://usabilla.codebasehq.com/application/sdk-pod.git" }
+  s.source       = { :git => "https://usabilla.codebasehq.com/application/sdk-pod.git", :tag => 'v0.1' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
