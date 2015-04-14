@@ -1,7 +1,11 @@
 # Usabilla FeedbackSDK for iOS
 This repository contains the FeedbackSDK for iOS and relative CocoaPods spec.
 
-## Pod instructions
+## Manual instructions
+Clone this repository and copy the content of the folder FeedbackSDK (header files, static library and assets catalog) in your project.
+Make sure to add `-ObjC` under *other linker flags* in your **Build settings**
+
+## Pod instructions (COMING SOON - git repository is private)
 Just include `pod 'UsabillaFeedbackSDK', :git => 'git@github.com:usabilla/usabilla-l4a-ios-sdk.git'` in your Pod file and run `pod install` to install the SDK.
 
 ## Integration instructions
