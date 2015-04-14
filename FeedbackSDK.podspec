@@ -15,20 +15,20 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "FeedbackSDK"
+  s.name         = "UsabillaFeedbackSDK"
   s.version      = "0.0.1"
-  s.summary      = "A short description of FeedbackSDK."
+  s.summary      = "Usabilla FeedbackSDK."
 
   s.description  = <<-DESC
-                   A longer description of FeedbackSDK in Markdown format.
+                   With Usabilla FeedbackSDK you can collect feedback from your users.
 
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+                   * Easy: one line install with CocoaPods
+                   * Succint: just include our header file and you're done!
+                   * Custom variables: you can push your own custom variables along.
+                   * And more.
                    DESC
 
-  s.homepage     = "http://EXAMPLE/FeedbackSDK"
+  s.homepage     = "http://usabilla.com/FeedbackSDK"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -64,8 +64,8 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
-  # s.platform     = :ios, "5.0"
+  s.platform     = :ios
+  s.platform     = :ios, "7.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -78,7 +78,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  # s.source       = { :git => "http://EXAMPLE/FeedbackSDK.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://usabilla.codebasehq.com/application/sdk-pod.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
