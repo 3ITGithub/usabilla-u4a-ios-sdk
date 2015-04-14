@@ -6,7 +6,6 @@ Just include `pod 'UsabillaFeedbackSDK', :git => 'git@github.com:usabilla/usabil
 
 ## Integration instructions
  - Include `Feedback-SDK.h` in your ViewController header file.
- - Include our assets catalog manually
  - Take an optional screenshot of the current view wherever you feel is appropriate with `UIImage *image = [self.view usa_screenshot];`
  - Get the appID either creating a new app on usabilla.com or using an already created app's appID
  - Launch the form with the code:
