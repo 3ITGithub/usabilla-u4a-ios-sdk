@@ -59,7 +59,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:usabilla/usabilla-l4a-ios-sdk.git" }
+  s.source       = { :git => "https://github.com/usabilla/usabilla-l4a-ios-sdk.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
