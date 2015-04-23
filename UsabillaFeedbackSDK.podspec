@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UsabillaFeedbackSDK"
-  s.version      = "0.2"
+  s.version      = "0.3"
   s.summary      = "Usabilla FeedbackSDK."
 
   s.description  = <<-DESC
@@ -28,18 +28,7 @@ Pod::Spec.new do |s|
                    * And more.
                    DESC
 
-  s.homepage     = "http://usabilla.com/FeedbackSDK"
-
-
-  # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
-  #
-  #  Licensing your code is important. See http://choosealicense.com for more info.
-  #  CocoaPods will detect a license file if there is a named LICENSE*
-  #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
-  #
-
-  s.license      = "MIT"
-
+  s.homepage     = "http://usabilla.com"
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -101,6 +90,6 @@ Pod::Spec.new do |s|
   #
 
   s.framework  = "MobileCoreServices"
-  s.vendored_libraries = "FeedbackSDK/libubForm-debug-0.2.a"
+  s.vendored_libraries = "FeedbackSDK/libubForm-debug-0.3.a"
 
 end

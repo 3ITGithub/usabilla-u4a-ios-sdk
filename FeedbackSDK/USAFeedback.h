@@ -1,14 +1,17 @@
-//
-//  USAFeedback.h
-//  Feedback SDK
-//
-//  Created by Samuel Goodwin on 2/3/15.
-//  Copyright (c) 2015 Usabilla. All rights reserved.
-//
+/**
+ * USAFeedback.h
+ * Copyright (c) 2015, Usabilla
+ * All rights reserved.
+ * Created by Claudio Semerearo (@keepitterron)
+ *
+ * Analytics realted functions.
+ */
 
 #import <Foundation/Foundation.h>
 
 @interface USAFeedback : NSObject
+// (optional) to be called on app alunch
 + (void)recordAppLaunchWithAppID:(NSString *)appID;
+// (optional) to be called on form show
 + (void)recordFormShowWithAppID:(NSString *)appID;
 @end

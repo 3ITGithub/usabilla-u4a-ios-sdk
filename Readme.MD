@@ -5,8 +5,8 @@ This repository contains the FeedbackSDK for iOS and relative CocoaPods spec.
 Clone this repository and copy the content of the folder FeedbackSDK (header files, static library and assets catalog) in your project.
 Make sure to add `-ObjC` under *other linker flags* in your **Build settings**
 
-## Pod instructions (COMING SOON - git repository is private)
-Just include `pod 'UsabillaFeedbackSDK', :git => 'git@github.com:usabilla/usabilla-l4a-ios-sdk.git'` in your Pod file and run `pod install` to install the SDK.
+## Pod instructions
+Just include `pod 'UsabillaFeedbackSDK', :git => 'https://github.com/usabilla/usabilla-l4a-ios-sdk.git'` in your Pod file and run `pod install` to install the SDK.
 
 ## Integration instructions
  - Include `Feedback-SDK.h` in your ViewController header file.
@@ -23,6 +23,9 @@ Just include `pod 'UsabillaFeedbackSDK', :git => 'git@github.com:usabilla/usabil
     [USAFeedbackController controllerWithScreenshot:image appID:@"YOUR APP ID" delegate:self response:^(USAFeedbackController *controller) {
         // optional usabilla loader hide
         [MBProgressHUD hideAllHUDsForView:self.view animated:YES];
+
+        // optional, pass custom variables
+        controller.customVariables = @{ @"username": @"keepitterron", @"user_id": @1 };
         
         UINavigationController *navigation = [[UINavigationController alloc] initWithRootViewController:controller];
         [self presentViewController:navigation animated:YES completion:nil];

@@ -1,10 +1,11 @@
-//
-//  UIView+USAScreenshot.h
-//  Feedback SDK
-//
-//  Created by Samuel Goodwin on 8/26/14.
-//  Copyright (c) 2014 Usabilla. All rights reserved.
-//
+/**
+ * UIView+USAScreenshot.h
+ * Copyright (c) 2015, Usabilla
+ * All rights reserved.
+ * Created by Claudio Semerearo (@keepitterron)
+ *
+ * Generate a screenshot from UIView.
+ */
 
 @import UIKit;
 

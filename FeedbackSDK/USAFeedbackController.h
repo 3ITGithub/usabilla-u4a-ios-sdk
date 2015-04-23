@@ -1,11 +1,11 @@
-//
-//  ViewController.h
-//  Feedback SDK
-//
-//  Created by Samuel Goodwin on 8/26/14.
-//  Edited by Claudio Semeraro on 3/1/15
-//  Copyright (c) 2014 Usabilla. All rights reserved.
-//
+/**
+ * ViewController.h
+ * Copyright (c) 2015, Usabilla
+ * All rights reserved.
+ * Created by Claudio Semerearo (@keepitterron)
+ *
+ * Feedback controller.
+ */
 
 @import UIKit;
 @class USAFeedbackController;
@@ -22,10 +22,14 @@ typedef void(^USAFeedbackResponse)(USAFeedbackController *controller);
 
 @interface USAFeedbackController : UITableViewController<UIAlertViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, USAScreenshotDelegate, UIGestureRecognizerDelegate>
 @property (nonatomic, assign) UIStatusBarStyle preferredStatusBarStyle;
+// shows a cancel button to go back to view
 @property (nonatomic, assign) BOOL showsCancelButton;
+// delegate
 @property (nonatomic, weak) id<USAFeedbackControllerDelegate> delegate;
+// holds custom variables (key/value)
 @property (nonatomic, copy) NSDictionary *customVariables;
 
+// shows feedback form and returns a controller
 + (void)controllerWithScreenshot:(UIImage *)screenshot appID:(NSString *)appID delegate:(id<USAFeedbackControllerDelegate>)delegate response:(USAFeedbackResponse)response;
 - (void)submit:(id)sender;
 - (void)addImageFromCell:(id)sender;
