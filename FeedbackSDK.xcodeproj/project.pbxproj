@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CA3D99D71AF116690035F667 /* libubForm-debug-0.5.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA3D99D61AF116690035F667 /* libubForm-debug-0.5.a */; };
 		CA6267DB1ADC592E00FC379A /* libFeedbackSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA6267CF1ADC592E00FC379A /* libFeedbackSDK.a */; };
-		CAF79C161AE91674007179C9 /* libubForm-debug-0.3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAF79C151AE91674007179C9 /* libubForm-debug-0.3.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,17 +34,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		CA3D99D61AF116690035F667 /* libubForm-debug-0.5.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libubForm-debug-0.5.a"; sourceTree = "<group>"; };
 		CA6267CF1ADC592E00FC379A /* libFeedbackSDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFeedbackSDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6267DA1ADC592E00FC379A /* FeedbackSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedbackSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA6267E01ADC592E00FC379A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA6267F21ADC5BE200FC379A /* Feedback-SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Feedback-SDK.h"; sourceTree = "<group>"; };
-		CA6267F41ADC5BE200FC379A /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		CA6267F51ADC5BE200FC379A /* MBProgressHUD+CustomAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+CustomAdditions.h"; sourceTree = "<group>"; };
 		CA6267F61ADC5BE200FC379A /* UIView-USAScreenshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView-USAScreenshot.h"; sourceTree = "<group>"; };
 		CA6267F71ADC5BE200FC379A /* USAFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USAFeedback.h; sourceTree = "<group>"; };
 		CA6267F81ADC5BE200FC379A /* USAFeedbackController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USAFeedbackController.h; sourceTree = "<group>"; };
 		CA6267F91ADC5BE200FC379A /* USAFeedbackControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = USAFeedbackControllerDelegate.h; sourceTree = "<group>"; };
-		CAF79C151AE91674007179C9 /* libubForm-debug-0.3.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libubForm-debug-0.3.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAF79C161AE91674007179C9 /* libubForm-debug-0.3.a in Frameworks */,
+				CA3D99D71AF116690035F667 /* libubForm-debug-0.5.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,9 +87,8 @@
 		CA6267D11ADC592E00FC379A /* FeedbackSDK */ = {
 			isa = PBXGroup;
 			children = (
-				CAF79C151AE91674007179C9 /* libubForm-debug-0.3.a */,
+				CA3D99D61AF116690035F667 /* libubForm-debug-0.5.a */,
 				CA6267F21ADC5BE200FC379A /* Feedback-SDK.h */,
-				CA6267F41ADC5BE200FC379A /* MBProgressHUD.h */,
 				CA6267F51ADC5BE200FC379A /* MBProgressHUD+CustomAdditions.h */,
 				CA6267F61ADC5BE200FC379A /* UIView-USAScreenshot.h */,
 				CA6267F71ADC5BE200FC379A /* USAFeedback.h */,
