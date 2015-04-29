@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resources = "FeedbackSDK/*.xcassets"
+  s.resources = "FeedbackSDK/Images.xcassets"
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
