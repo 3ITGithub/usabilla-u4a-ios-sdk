@@ -91,5 +91,6 @@ Pod::Spec.new do |s|
 
   s.framework  = "MobileCoreServices"
   s.vendored_libraries = "FeedbackSDK/libubForm-debug-0.3.a"
+  s.dependency 'MBProgressHUD', '~> 0.9'
 
 end
