@@ -94,6 +94,5 @@ Pod::Spec.new do |s|
 
   # ――― Project Dependencies ―――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.dependency 'MBProgressHUD', '~> 0.9'
-  s.dependency 'Reachability', '~> 3.2'
 
 end
