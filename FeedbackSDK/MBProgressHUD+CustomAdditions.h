@@ -12,6 +12,6 @@
 @interface MBProgressHUD (CustomAdditions)
 
 // attach usabilla's custom loader to `view`
-+ (MBProgressHUD *)fadeInHUDInView:(UIView *)view;
++ (MBProgressHUD *)usa_fadeInHUDInView:(UIView *)view;
 
 @end

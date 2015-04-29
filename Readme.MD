@@ -17,7 +17,7 @@ Just include `pod 'UsabillaFeedbackSDK', :git => 'https://github.com/usabilla/us
 
  ```
     // optional usabilla loader show
-    MBProgressHUD *HUD = [MBProgressHUD fadeInHUDInView:self.view];
+    MBProgressHUD *HUD = [MBProgressHUD usa_fadeInHUDInView:self.view];
     HUD.minShowTime = 0.0f;
 
     // init controller and present it
