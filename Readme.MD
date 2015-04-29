@@ -5,8 +5,7 @@ This repository contains the FeedbackSDK for iOS and relative CocoaPods spec.
 Clone this repository and copy the content of the folder FeedbackSDK (header files, static library and assets catalog) in your project.
 Please manually add the following dependencies to your project if not already using it:
  - [MBProgressHUD](https://github.com/jdg/MBProgressHUD)
- - [Reachability](https://github.com/tonymillion/Reachability)
- 
+
 Make sure to add `-ObjC` under *other linker flags* in your **Build settings**
 
 ## Pod instructions
