@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UsabillaFeedbackSDK"
-  s.version      = "0.5"
+  s.version      = "0.9"
   s.summary      = "Usabilla FeedbackSDK."
 
   s.description  = <<-DESC
@@ -90,7 +90,7 @@ Pod::Spec.new do |s|
   #
 
   s.framework  = "MobileCoreServices"
-  s.vendored_libraries = "FeedbackSDK/libubForm-debug-0.5.a"
+  s.vendored_libraries = "FeedbackSDK/libubForm-debug-0.9.a"
 
   # ――― Project Dependencies ―――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.dependency 'MBProgressHUD', '~> 0.9'
