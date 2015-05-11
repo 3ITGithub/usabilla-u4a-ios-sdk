@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UsabillaFeedbackSDK"
-  s.version      = "0.9a"
+  s.version      = "0.9b"
   s.summary      = "Usabilla FeedbackSDK."
 
   s.description  = <<-DESC
