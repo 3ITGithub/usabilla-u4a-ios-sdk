@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UsabillaFeedbackSDK"
-  s.version      = "0.9b"
+  s.version      = "1.0"
   s.summary      = "Usabilla FeedbackSDK."
 
   s.description  = <<-DESC
@@ -50,7 +50,7 @@ Pod::Spec.new do |s|
   #
 
   s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "7.1"
 
 
   # ――― Source Location ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -90,7 +90,8 @@ Pod::Spec.new do |s|
   #
 
   s.framework  = "MobileCoreServices"
-  s.vendored_libraries = "FeedbackSDK/libubForm-debug-0.9.a"
+  s.weak_framework = "UIKit"
+  s.vendored_libraries = "FeedbackSDK/libubForm-release-1.0.a"
 
   # ――― Project Dependencies ―――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.dependency 'MBProgressHUD', '~> 0.9'

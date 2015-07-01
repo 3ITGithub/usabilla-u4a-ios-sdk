@@ -2,7 +2,7 @@
  * ViewController.h
  * Copyright (c) 2015, Usabilla
  * All rights reserved.
- * Created by Claudio Semeraro (@keepitterron)
+ * Created by Claudio Semerearo (@keepitterron)
  *
  * Feedback controller.
  */
@@ -20,7 +20,7 @@ typedef void(^USAFeedbackResponse)(USAFeedbackController *controller);
 - (void)screenshotWillChange;
 @end
 
-@interface USAFeedbackController : UITableViewController<UIAlertViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, USAScreenshotDelegate, UIGestureRecognizerDelegate>
+@interface USAFeedbackController : UITableViewController<UIAlertViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, USAScreenshotDelegate, UIGestureRecognizerDelegate, UIActionSheetDelegate>
 @property (nonatomic, assign) UIStatusBarStyle preferredStatusBarStyle;
 // shows a cancel button to go back to view
 @property (nonatomic, assign) BOOL showsCancelButton;
