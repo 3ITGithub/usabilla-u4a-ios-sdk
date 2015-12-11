@@ -1,0 +1,6 @@
+v 1.5
+* Added star rating: It’s now possible to choose between the emoticons or a more traditional 5 star rating.
+* The nps rating can now be set to slider or buttons
+* Fixed incorrect layout in iPad's split screen mode
+* Minor bug fixes and improvements
+
