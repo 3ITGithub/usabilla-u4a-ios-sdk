@@ -2,7 +2,7 @@
  * MBProgressHUD+CustomAdditions.h
  * Copyright (c) 2015, Usabilla
  * All rights reserved.
- * Created by Claudio Semeraro (@keepitterron)
+ * Created by Claudio Semerearo (@keepitterron)
  *
  * Used to show Usabilla's custom loader.
  */

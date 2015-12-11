@@ -20,7 +20,8 @@ typedef void(^USAFeedbackResponse)(USAFeedbackController *controller);
 - (void)screenshotWillChange;
 @end
 
-@interface USAFeedbackController : UITableViewController<UIAlertViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, USAScreenshotDelegate, UIGestureRecognizerDelegate, UIActionSheetDelegate>
+@interface USAFeedbackController : UITableViewController<UIAlertViewDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate, USAScreenshotDelegate, UIGestureRecognizerDelegate, UIActionSheetDelegate, UIContentContainer>
+
 @property (nonatomic, assign) UIStatusBarStyle preferredStatusBarStyle;
 // shows a cancel button to go back to view
 @property (nonatomic, assign) BOOL showsCancelButton;
