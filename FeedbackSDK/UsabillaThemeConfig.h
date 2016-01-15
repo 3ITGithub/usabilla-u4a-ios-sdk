@@ -2,12 +2,12 @@
 //  UsabillaThemeConfig.h
 //  ubForm
 //
-//  Created by Giacomo Pinato on 07/12/15.
-//  Copyright © 2015 Usabilla. All rights reserved.
+//  Created by Giacomo Pinato on 14/01/16.
+//  Copyright © 2016 Usabilla. All rights reserved.
 //
 
-#ifndef ThemeConfig_h
-#define ThemeConfig_h
+#ifndef UsabillaThemeConfig_h
+#define UsabillaThemeConfig_h
 @import UIKit;
 
 @class UsabillaThemeConfig;
@@ -33,4 +33,5 @@
 + (id)sharedInstance;
 
 @end
-#endif /* ThemeConfig_h */
+
+#endif /* UsabillaThemeConfig_h */
