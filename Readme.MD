@@ -1,5 +1,6 @@
 # Usabilla FeedbackSDK for iOS
 This repository contains the FeedbackSDK for iOS and relative CocoaPods spec.
+Take a look at our [Wiki](https://github.com/usabilla/usabilla-u4a-ios-sdk/wiki) for a complete and in depth guide on how to install and customize the SDK.
 
 ## Manual instructions
 Clone this repository and copy the content of the folder FeedbackSDK (header files, static library and assets catalog) in your project.

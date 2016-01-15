@@ -34,4 +34,9 @@ typedef void(^USAFeedbackResponse)(USAFeedbackController *controller);
 + (void)controllerWithScreenshot:(UIImage *)screenshot appID:(NSString *)appID delegate:(id<USAFeedbackControllerDelegate>)delegate response:(USAFeedbackResponse)response;
 - (void)submit:(id)sender;
 - (void)addImageFromCell:(id)sender;
+
+//Customisation
++(void) setCustomEmoticons:(NSArray*) selected unselected:(NSArray*) unselected ;
++(void) setCustomStars:(UIImage *)full empty:(UIImage *)empty;
+
 @end
