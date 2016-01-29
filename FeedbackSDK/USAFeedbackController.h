@@ -30,6 +30,11 @@ typedef void(^USAFeedbackResponse)(USAFeedbackController *controller);
 // holds custom variables (key/value)
 @property (nonatomic, copy) NSDictionary *customVariables;
 
+
++ (NSString *)getLocalizationFile;
++ (void)setLocalizationFile:(NSString*)fileName;
++ (void)setHostingAppid:(NSString*)appId;
+
 // shows feedback form and returns a controller
 + (void)controllerWithScreenshot:(UIImage *)screenshot appID:(NSString *)appID delegate:(id<USAFeedbackControllerDelegate>)delegate response:(USAFeedbackResponse)response;
 - (void)submit:(id)sender;

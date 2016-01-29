@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UsabillaFeedbackSDK"
-  s.version      = "1.6.1"
+  s.version      = "1.6.5"
   s.summary      = "Usabilla FeedbackSDK."
 
   s.description  = <<-DESC
@@ -81,7 +81,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  s.resources = "FeedbackSDK/Images.xcassets"
+  s.resources = ["FeedbackSDK/Images.xcassets","FeedbackSDK/usa_localizable.strings"]
 
   # ――― Project Linking ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
