@@ -1,11 +1,12 @@
-v 2.1.0
-* Enabled colors, images and fonts customization via SDK
-* Downgraded Appcompat-v7 to 22.1.0
+v 1.6.5
+* It is now possible to override  all the text in the sdks and provide a custom localization
+* The SDK can now redirect the users to the App Store to review your app if they gave a positive rating
 * Various bug fixes and improvements
 
-v 2.0.3
+v 1.6
+* Enabled colors, images and fonts customization via SDK
+* Various bug fixes and improvements
+
+v 1.5
 * Added star rating: It’s now possible to choose between the emoticons or a more traditional 5 star rating.
 * The nps rating can now be set to slider or buttons
-* Fixed incorrect layout in iPad's split screen mode
-* Minor bug fixes and improvements
-
