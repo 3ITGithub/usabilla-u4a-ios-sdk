@@ -34,6 +34,8 @@ typedef void(^USAFeedbackResponse)(USAFeedbackController *controller);
 + (NSString *)getLocalizationFile;
 + (void)setLocalizationFile:(NSString*)fileName;
 + (void)setHostingAppid:(NSString*)appId;
++ (void)forceScreenshot:(BOOL)force;
++ (BOOL)isScreenshotForced;
 
 // shows feedback form and returns a controller
 + (void)controllerWithScreenshot:(UIImage *)screenshot appID:(NSString *)appID delegate:(id<USAFeedbackControllerDelegate>)delegate response:(USAFeedbackResponse)response;
