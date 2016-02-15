@@ -1,6 +1,6 @@
 v1.6.6
-*It is now possible to force the user to submit a screenshot 
-*Minor bug fixes and improvements 
+* It is now possible to force the user to submit a screenshot 
+* Minor bug fixes and improvements 
 
 v 1.6.5
 * It is now possible to override  all the text in the sdks and provide a custom localization
