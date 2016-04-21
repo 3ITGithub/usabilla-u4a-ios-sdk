@@ -30,7 +30,7 @@
 @property (nonatomic, strong, nullable) UIImage *fullStar;
 @property (nonatomic, strong, nullable) UIImage *emptyStar;
 
-+ (id)sharedInstance;
++ (id _Nonnull)sharedInstance;
 
 @end
 

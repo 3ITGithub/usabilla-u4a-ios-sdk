@@ -7,7 +7,7 @@
  * Used to show Usabilla's custom loader.
  */
 
-#import "MBProgressHUD.h"
+#import <MBProgressHUD/MBProgressHUD.h>
 
 @interface MBProgressHUD (CustomAdditions)
 
